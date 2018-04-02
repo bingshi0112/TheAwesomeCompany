@@ -1,0 +1,338 @@
+/*# sourceMappingURL=style.css.map */
+
+/*title*/
+.header {
+    text-align: center;
+}
+
+/*small image blocks*/
+.image-block {
+    width: 200px;
+    height: 200px;
+    /*border: 1px solid blue;*/
+}
+
+.image-block img {
+    width: 200px;
+    height: 180px;
+    /*border: 1px solid blue;*/
+}
+
+.row-block {
+    /*display: inline-block;*/
+    /*width: 99%;*/
+    /*height: 90%;*/
+    /*border: 1px solid blue;*/
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row-block img {
+    /*width: 19%;*/
+    /*height: 18%;*/
+    /*border: 1px solid blue;*/
+    display: inline-block;
+    margin-bottom: 8px;
+    width: calc(50% - 4px);
+}
+
+/*image slides*/
+.carousel-control {
+    width: 0;
+    left: 20px;
+    color: #fff;
+}
+
+.glyphicon {
+    right: 20px !important;
+}
+
+.carousel-inner > .item > a > img {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid .news {
+    padding: 0;
+}
+
+.main-section {
+    padding: 0;
+}
+
+.carousel-inner .item:hover .news-title-concise {
+    left: 0;
+}
+
+.news-title-concise {
+    background: rgba(0,0,0,0.7);
+    width: 300px;
+    height: 60px;
+    position: absolute;;
+    bottom: 25px;
+    left: -3200px;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.news-title-concise h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 60px;
+    padding: 0 0 0 10px;
+}
+
+.carousel-inner .item:hover .news-title-concise {
+    left: 0;
+}
+
+
+
+
+/*footer*/
+.footer {
+    /*padding: 0;*/
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #444;
+    padding-left: 0;
+    padding-right: 10%;
+    background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#ccc));
+    background-image: linear-gradient(#fff, #ccc);
+}
+
+.footer .row div {
+    color: black;
+    text-align: center;
+}
+
+.footer .row ul {
+    list-style: none;
+
+}
+
+.footer .row ul li {
+    list-style-position: outside;
+    text-align: center;
+}
+
+.footer .row .copyright {
+    text-align: left;
+}
+
+.footer .row li {
+    color: #444;
+}
+
+/*nav bar & background*/
+.navbar-static-top {
+    position: fixed;
+    width: 100%;
+}
+
+.container-fluid.main-content {
+    margin: auto 10%;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background: url('../img/denim.png');
+    font-family: 'Droid Sans', sans-serif !important;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.wrap {
+    width: 940px;
+    margin: 4em auto;
+}
+
+nav {
+    padding: 0 10px;
+    position: relative;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+
+.menu li {
+    float: left;
+    position: relative;
+}
+
+.menu li a {
+    color: #444;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 6px 12px;
+    margin: 8px 8px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #222;
+}
+
+/* Dropdown styles */
+.menu ul {
+    position: absolute;
+    left: -9999px;
+    list-style: none;
+}
+
+.menu ul li {
+    float: none;
+}
+
+.menu ul a {
+    white-space: nowrap;
+}
+
+/* Displays the dropdown on hover and moves back into position */
+.menu li:hover ul {
+    left: 5px;
+    z-index: 100;
+}
+
+/* Persistent Hover State */
+.menu li:hover a {
+    color: #222;
+}
+
+.menu li:hover ul a {
+    background: none;
+}
+
+.menu li:hover ul li a:hover {
+
+}
+
+nav {
+    background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#ccc));
+    background-image: linear-gradient(#fff, #ccc);
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4);
+    padding: 0 10px;
+    position: relative;
+}
+
+.menu li a:hover {
+    background: -webkit-gradient(linear, center top, center bottom, from(#ededed), to(#fff));
+    background-image: linear-gradient(#ededed, #fff);
+    border-radius: 12px;
+    box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+}
+
+@font-face {
+    font-family: 'IconicStroke';
+    src: url("fonts/iconic/iconic_stroke.eot");
+    src: local('IconicStroke'),
+    url("fonts/iconic/iconic_stroke.svg#iconic") format('svg'),
+    url("fonts/iconic/iconic_stroke.otf") format('opentype');
+}
+
+.iconic {
+    color: inherit;
+    font-family: "IconicStroke";
+    font-size: 38px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.menu ul {
+    position: absolute;
+    left: -9999px;
+    list-style: none;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.menu li:hover ul {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 0 0 6px 6px;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.4);
+    left: 5px;
+    opacity: 1;
+}
+
+.menu li:hover a {
+    background: -webkit-gradient(linear, center top, center bottom, from(#ccc), to(#ededed));
+    background-image: linear-gradient(#ccc, #ededed);
+    border-radius: 12px;
+    box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+}
+
+.menu li:hover ul a {
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.menu li:hover ul li a:hover {
+    background: -webkit-gradient(linear, center top, center bottom, from(#eee), to(#fff));
+    background-image: linear-gradient(#ededed, #fff);
+    border-radius: 12px;
+    box-shadow: inset 0px 0px 4px 2px rgba(0, 0, 0, 0.3);
+}

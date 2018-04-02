@@ -1,0 +1,60 @@
+/* Master Styles */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+h4, h5 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 3em;
+  background-color: #f7f4cf;
+
+}
+.col-xs-2 {
+    text-align: center;
+    height: 100vh;
+}
+.col-sm-9, .col-sm-3 {
+    position: relative;
+    height: 39vh;
+}
+.col-sm-7, .col-sm-5 {
+    text-align: center;
+    height: 34vh;
+}
+.col-sm-12 {
+    text-align: center;
+    height: 27vh;
+}
+.col-xs-12 {
+    text-align: center;
+    height: 13vh;
+}
+.productImg {
+  position: absolute;
+  margin: auto;
+  top: 0; left: 0;
+}
+.glyphicon{
+  cursor: pointer;
+  font-size: 34px;
+  color: #ccc;
+}
+
+#r6.glyphicon, #r7.glyphicon, #r8.glyphicon, #r9.glyphicon, #r10.glyphicon{
+  cursor: pointer;
+  font-size: 50px;
+  color: #ccc;
+}
+#shoppingCart.glyphicon{
+  phont-size: 5px;
+}
